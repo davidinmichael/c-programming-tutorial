@@ -4,12 +4,20 @@
 
 int main()
 {
-    int num = 1;
-
-    while (num <= 10)
+    int num;
+    while (test)
     {
-        printf("%d ", num++);
+        body
     }
+
+    do 
+    {
+        body of the loop
+    }
+    while (text expression);
+
+
+    
 
     
     
