@@ -4,16 +4,12 @@
 
 int main()
 {
-    int num;
-    int num1 = 11;
-    int i = 1;
+    int num = 1;
 
-
-    do
+    while (num <= 10)
     {
-        scanf("%d", &num);
-    } while (num > 0);
-        
+        printf("%d ", num++);
+    }
 
     
     
