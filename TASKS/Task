@@ -19,4 +19,7 @@ int main ()
 	{
 		printf("user is enrolled. \n");
 	}
+
+	
+	return 0;
 }
