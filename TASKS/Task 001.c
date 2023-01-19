@@ -1,7 +1,13 @@
-/* Write your program after the comment
-Write a program that prints the alphabet in lowercase, followed by a new line.
+#include <stdio.h>
 
-Print all the letters except q and e
+int main()
+{
+	char i;
 
-use printf
-*/
+	printf("Lower case characters: \n");
+	for (i='a'; i<='z' ; i++)
+		printf("%c " , i);
+
+	printf("\n");
+	return (0);
+}
