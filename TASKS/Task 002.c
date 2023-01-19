@@ -12,5 +12,14 @@ int main(void)
     double score;
 
     printf("Enter you score:");
-    scanf("")
+    scanf("%lf", &score);
+    
+    if (score >= 80)
+    {
+        printf("You are eligible to be enrolled\n");
+    }
+    else if (score < 80)
+    {
+        printf("You are not eligible to be enrolled\n");
+    }
 }
