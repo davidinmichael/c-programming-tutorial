@@ -12,3 +12,20 @@ Output:
 Your name is David and you are 65 years old.
 
 */
+
+#include <stdio.h>
+
+int main(void)
+{
+  char StrName[20];
+  int age;
+  
+  printf("Enter your name: ");
+  scanf("%s", &StrName);
+  
+  printf("Enter your age: ");
+  scanf("%d", &age);
+  
+  printf("Your name is %s and you are %d years old\n);
+         return;
+         }
