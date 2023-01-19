@@ -23,10 +23,10 @@ int main(void)
 	printf("Enter a number: \n");
 	scanf("%d", &userInput);
 	if (userInput == 0)
-		printf("userInput is zero.\n");
+		printf("This is zero.\n");
 	else if (userInput % 2 == 0)
-		printf("userInput is even\n");
+		printf("%d is even.\n", userInput);
 	else
-		printf("userInput is odd\n");
+		printf("%d is odd.\n", userInput);
 	return (0);
 }
