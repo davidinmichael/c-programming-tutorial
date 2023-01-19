@@ -7,19 +7,21 @@ If the score is greater than or equal 80, they can be enrolled.
 
 #include <stdio.h>
 
-int main ()
-{
-	int userScore = 0;
-	
-	if (userScore < 80)
-	{
+int main() {
+    int num;
+    printf("input your score ", num);
+    scanf("%d",&num);
+    printf("You input %d", num);
+   
+    
+    if (num < 80)
+    {
 		printf("user is not eligile to be enrolled. \n");		
 	}
-	else (userScore >= 80);
+	else (num >= 80); 
 	{
 		printf("user is enrolled. \n");
 	}
 
-	
-	return 0;
+    return 0;
 }
