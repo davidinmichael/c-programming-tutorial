@@ -26,6 +26,6 @@ int main(void)
   printf("Enter your age: ");
   scanf("%d", &age);
   
-  printf("Your name is %s and you are %d years old\n);
+  printf("Your name is %s and you are %d years old\n", StrName, age);
          return;
          }
