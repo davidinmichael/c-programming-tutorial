@@ -17,11 +17,14 @@ int main(void)
 	printf("Please enter your magic number ");
 	scanf("%d", &userInput);
 
-	if ((userInput % 2) == 0)
-		printf("Your magic number is even!\n");
-	else if ((userInput % 2) == 1)
+	if ((userInput % 2) == 1)
 		printf("Your magic number is odd!\n");
-	else
+	/*else if ((userInput % 2) == 1)
+		printf("Your magic number is odd!\n");
+		*/
+	else if (userInput == 0)
 		printf("This is zero\n");
+	else
+		printf("Your magic number is even!\n");
 	return (0);
 }
