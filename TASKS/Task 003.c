@@ -28,5 +28,6 @@ int main(void)
 		printf("%d is even.\n", userInput);
 	else
 		printf("%d is odd.\n", userInput);
+
 	return (0);
 }
