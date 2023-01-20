@@ -16,16 +16,14 @@ int main(void)
         int score = 0;
 	
 	printf("Enter a Score:\t");
-        scanf("%d", &score);
-	
-	if (!(isdigit(score)))
-		printf("You did not enter a numeric data.");
-	else
+        if (scanf("%d", &score) == 1)
 	{
 		if (score < 80)
 			printf("You cannot be enrolled.");
 		else if (score >= 80)
 			printf("You can be enrolled.");
-	}	
-	return (0);        
+	}
+	else
+		printf("You did not enter a numeric data.");
+	return (0);  
 }
