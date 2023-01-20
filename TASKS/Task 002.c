@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <ctype.h>
+#include <conio.h>
 #include <stdlib.h>
 
 /**
@@ -12,13 +14,18 @@
 int main(void)
 {
         int score = 0;
-
-        printf("Enter a Score:\t");
+	
+	printf("Enter a Score:\t");
         scanf("%d", &score);
-
-        if (score < 80)
-                printf("You cannot be enrolled.");
-        else if (score >= 80)
-                printf("You can be enrolled.");
-        return (0);
+	
+	if (!(isdigit(score)))
+		printf("You did not enter a numeric data.");
+	else
+	{
+		if (score < 80)
+			printf("You cannot be enrolled.");
+		else if (score >= 80)
+			printf("You can be enrolled.");
+	}	
+	return (0);        
 }
