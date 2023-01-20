@@ -6,7 +6,7 @@
  * Write a program that prints the alphabet in lowercase, followed by a new line.
  * Print all the letters except q and e
  * use printf
-*/
+ */
 
 int  main(void)
 {
@@ -16,7 +16,7 @@ int  main(void)
 	{
 		if (alpha == 'e' || alpha == 'q')
 			continue;
-                printf("%c", alpha);
+		printf("%c", alpha);
 	}
         printf("\n");
 }
