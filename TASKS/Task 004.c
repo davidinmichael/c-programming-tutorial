@@ -2,18 +2,34 @@
 #include <stdlib.h>
 
 /* Write your program after the comment
-Write a program that prints the alphabet in lowercase, followed by a new line.
+Write a program that asks and reads the following input from a use;
+Your name
+Your age
+and then displays; Your name is 'name' and you are 'age' years old.
 
-Print all the letters except q and e
+Example;
+what is your name: David
+How old are you?: 65
 
-use printf
+Output:
+Your name is David and you are 65 years old.
+
 */
 
-int  main(void)
-{
-        char alpha;
+#define MAX 1024
 
-        for (alpha = 'a'; alpha <= 'z'; alpha++)
-                printf("%c", alpha);
-        printf("\n");
+int main(void)
+{
+        int age = 0;
+        char name[20];
+
+        printf("Enter Name:\t");
+        fgets(name, MAX, stdin);
+
+        printf("Enter Age:\t");
+        scanf("%d", &age);
+
+        printf("Your name is %s and you are %d years old.", name, age);
+
+        return (0);
 }
