@@ -16,15 +16,13 @@ Your name is David and you are 65 years old.
 
 */
 
-#define MAX 1024
-
 int main(void)
 {
         int age = 0;
-        char name[20];
+        char name[100];
 
         printf("Enter Name:\t");
-        fgets(name, MAX, stdin);
+        scanf("%s", name);
 
         printf("Enter Age:\t");
         scanf("%d", &age);
