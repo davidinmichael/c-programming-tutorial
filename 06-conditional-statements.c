@@ -1,3 +1,6 @@
+#include <stdio.h>
+int main (void)
+{
 /*
 C if Statement
 The syntax of the if statement in C programming is:
@@ -16,6 +19,14 @@ If the test expression is evaluated to false, statements inside the body of if a
 Practice Program
 Check if a number is negative
 */
+
+int num;
+printf("Check if your number is positive or negative\nEnter a number : ");
+scanf("%d", &num);
+if (num > 0)
+	printf("%d is positive\n", num);
+else
+	printf("%d is negative\n", num);
 
 /*
 
@@ -41,7 +52,13 @@ statements inside the body of if are skipped from execution.
 Practice Program
 Check whether a number is odd or even
 */
-
+int num1;
+printf("Check if a number is Even or Odd\nEnter a number : ");
+scanf("%d", &num1);
+if (num1 % 2 == 0)
+	printf("%d is Even\n", num1);
+else
+	printf("%d is Odd\n", num1);
 /*
 C if...else Ladder
 The if...else statement executes two different codes depending
@@ -71,3 +88,16 @@ Practice Program
 Program to relate two integers using ==, > or < symbol
 
 */
+int age;
+printf("Check your age\nEnter an age : ");
+scanf("%d", &age);
+if (age < 13)
+	printf("you are too young\n");
+else if (age >= 13 && age <= 18)
+	printf("You are a teenager\n");
+else
+	printf("you are an adult\n");
+
+
+return (0);
+}

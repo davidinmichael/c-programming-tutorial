@@ -1,3 +1,8 @@
+#include <stdio.h>
+
+int main (void)
+{
+
 /*
     Nested Loops
 A nested loop means a loop statement inside another
@@ -33,7 +38,19 @@ while(condition) {
 Practice Problem
 FizzBuzz
 */
-
+printf("FizzBuzz if divided by both 5 & 3.\nFizz is divided by 3.\nBuzz if divided by 5\n");
+for (int i = 1; i <= 100; i++)
+{
+	if ( i % 3 == 0 && i % 5 == 0)
+		printf("FizzBuzz ");
+	else if (i % 5 == 0)
+		printf("Buzz ");
+	else if (i % 3 == 0)
+		printf("Fizz ");
+	else
+		printf("%d ", i); 
+}
+putchar('\n');
 /*
 int n = 6;// variable declaration  
    //printf("Enter the value of n :");  
@@ -47,3 +64,6 @@ int n = 6;// variable declaration
        printf("\n");  
    }
 */
+
+return (0);
+}
