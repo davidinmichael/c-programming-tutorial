@@ -1,14 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 /* Write your program after the comment
-Write a program that asks and reads the following input from a use;
-Your name
-Your age
-and then displays; Your name is 'name' and you are 'age' years old.
+Write a program that prints the alphabet in lowercase, followed by a new line.
 
-Example;
-what is your name: David
-How old are you?: 65
+Print all the letters except q and e
 
-Output:
-Your name is David and you are 65 years old.
-
+use printf
 */
+
+int  main(void)
+{
+        char alpha;
+
+        for (alpha = 'a'; alpha <= 'z'; alpha++)
+                printf("%c", alpha);
+        printf("\n");
+}
