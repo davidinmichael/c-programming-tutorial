@@ -5,3 +5,17 @@ Print all the letters except q and e
 
 use printf
 */
+#include <stdio.h>
+
+int main(void)
+{
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		if (i == 'q' || i == 'e')
+			continue;
+		printf("%c\n", i);
+	}
+	return (0);
+}

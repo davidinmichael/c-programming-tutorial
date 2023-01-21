@@ -12,3 +12,25 @@ Output:
 Your name is David and you are 65 years old.
 
 */
+
+/**
+ * main - checks code
+ * Return: zero
+ */
+#include <stdio.h>
+
+int main(void)
+{
+	char name;
+	int age;
+
+	printf("Please enter your name: \n");
+	scanf("%c \n", &name);
+
+	printf("input your age: \n");
+	scanf("%d \n", &age);
+
+	printf("Your name is %c and you are %d years old\n", name, age);
+
+	return (0);
+}
