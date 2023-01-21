@@ -9,11 +9,17 @@ If the score is greater than or equal 80, they can be enrolled.
 int main(void)
 {
 	int score;
-
-	printf("input your score: \n");
-	scanf("%d", &score);	
-	printf("your score is: %d\n", score);
-
+	int valid_input = 0;
+	while (valid_input == 0)
+	{
+		printf("input your score: \n");
+		valid_input = scanf("%d", &score);
+		if (valid_input == 0)
+		{
+			printf("Invalid input. Please enter a number.\n");
+			scanf("%*s");
+		}
+	}
 	if (score < 80)
 		printf("you are not eligible for this course\n");
 
