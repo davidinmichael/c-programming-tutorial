@@ -1,0 +1,4 @@
+/*Write your solution after the comment
+Write a function that adds two integers and prints
+the result.
+*/
