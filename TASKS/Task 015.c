@@ -7,3 +7,34 @@ multiples of both three and five print FizzBuzz.
 Your output should like this;
 1 2 fizz 4 buzz fizz 7 8 fizz... and so on.
 */
+#include <stdio.h>
+
+void FizzBuzz()
+{
+    int n;
+    for (n = 1; n <= 100; n++)
+    {
+        if (n % 3 == 0)
+        {
+            printf("Fizz ");
+        }
+        else if (n % 5 == 0)
+        {
+            printf("Buzz ");
+        }
+        else if (n % 3 == 0 && n % 5 == 0)
+        {
+            printf("FizzBuzz ");
+        }
+        else
+        {
+            printf("%d ", n);
+        }
+    }
+    printf("\n");
+}
+
+int main()
+{
+    FizzBuzz();
+}
