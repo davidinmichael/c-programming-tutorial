@@ -16,12 +16,12 @@ int main(void)
 	printf("input a number\n");
 	scanf("%d\n", &userInput);
 
-	if (userInput % 2 == 0 && userInput != 0)
-		printf("userInput is even\n");
-	if (userInput % 2 == 1)
-		printf("userInput is Odd\n");
 	if (userInput == 0)
-		printf("userInput is zero\n");
+		printf("You entered zero\n");
+	else if (userInput % 2 == 0)
+		printf("%d is even\n", userInput);
+	else
+		printf("%d is odd\n", userInput);
 	
 	return (0);
 }	

@@ -11,7 +11,7 @@ int main(void)
 	int score;
 
 	printf("input your score: \n");
-	scanf("%d", &score);
+	scanf("%d", &score);	
 	printf("your score is: %d\n", score);
 
 	if (score < 80)
