@@ -17,3 +17,12 @@ condition ? value_if_true : value_if_false
 
 Ternary operator can also be nested
 */
+#include <stdio.h>
+int main(void)
+{
+	int num;
+	printf("Enter an number : ");
+	scanf("%d",&num);
+	(num % 2 == 0) ? printf("%d is Even\n",num) : printf("%d is Odd\n", num);
+return(0);
+}

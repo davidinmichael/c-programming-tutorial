@@ -34,3 +34,47 @@ The default clause inside the switch statement is optional.
 Practice Program
 Create a calculator
 */
+#include <stdio.h>
+
+int main (void)
+{
+printf("This is a basic calculator [a sign b]\nwhere 'a' & 'b' are numbers and 'sign' is one of those [+, -, *, /, %%]: \n");
+double a,b;
+char sign;
+printf("Enter number a : ");
+scanf("%lf", &a);
+
+printf("Enter number b : ");
+scanf("%lf", &b);
+
+printf("Enter the operaion you want to perform : ");
+scanf(" %c", &sign);
+
+switch(sign)
+{
+	case '+':
+		printf("%.2lf %c %.2lf = %.2lf\n", a, sign, b, a + b);
+		break;
+	case '-':
+		printf("%.2lf %c %.2lf = %.2lf\n", a, sign, b, a - b);
+		break;
+	case '*':
+		printf("%.2lf %c %.2lf = %.2lf\n", a, sign, b, a * b);
+		break;
+	case '/':
+		printf("%.2lf %c %.2lf = %.2lf\n", a, sign, b, a / b);
+		break;
+	case '%':
+		printf("%.2lf %c %.2lf = %d\n", a, sign, b, (int) a % (int) b);
+		break;
+
+	default :
+		printf("Error, please enter a correct operation\n");
+}
+
+
+
+
+return (0);
+}
+

@@ -1,3 +1,7 @@
+#include <stdio.h>
+
+int main(void)
+{
 /*
 In programming, a loop is used to repeat a
 block of code until the specified condition is met.
@@ -32,7 +36,10 @@ Practice Program
 Print Numbers 1 - 10
 Calculate the sum
 */
-
+printf("let's print numbers from 1 to 10 using for loop\n");
+for (int i = 1; i <= 10; i++)
+	printf("%d ",i);
+putchar('\n');
 /*
 C while loop
 The syntax of the while loop is:
@@ -50,7 +57,14 @@ If testExpression is false, the loop terminates (ends).
 Practice Program
 Print Numbers 1 - 10
 */
-
+printf("let's print numbers from 1 to 10 using while loop\n");
+int i = 1;
+while(i<=10)
+{
+	printf("%d ", i);
+	i++;
+}
+putchar('\n');
 /*
 do...while loop
 The do..while loop is similar to the while loop with one important
@@ -73,3 +87,12 @@ How do...while loop works?
 Practice Program
 Ask for correct input continously
 */
+int num;
+do{
+	printf("Enter a random number, or 0 to quit : ");
+	scanf("%d", &num);
+	printf("You entered %d\n", num);
+}while(num !=0);
+
+return (0);
+}
