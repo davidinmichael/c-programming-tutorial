@@ -28,4 +28,8 @@ We start with c beacuse is it lowlevel programming languange
 
 =======
 Why did we start with C?
+<<<<<<< HEAD
 >>>>>>> bb1b02cf9871bf46bfd8248f995470468da30fea
+=======
+.....
+>>>>>>> d7222da7aebf99de182504d4709e8fcf040c8500
