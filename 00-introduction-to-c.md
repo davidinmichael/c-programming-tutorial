@@ -5,6 +5,7 @@ What year was c invented?
 Why are we learning to program in c?
 What's special about c?
 What is c used for?
+<<<<<<< HEAD
 Why did we start we C?
 
 /**
@@ -25,3 +26,6 @@ We start with c beacuse is it lowlevel programming languange
 */
 
 
+=======
+Why did we start with C?
+>>>>>>> bb1b02cf9871bf46bfd8248f995470468da30fea
