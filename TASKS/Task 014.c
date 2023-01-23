@@ -12,15 +12,18 @@ Your output should look like this;
 
 void PrintNum()
 {
-    int i, j;
+    int i = 1, j = 0;
     
-    for (i = 1; i <= 10; i++)
+    while (i <= 10)
     {
-        for (j = 0; j <= 14; j++)
+        while (j <= 14)
         {
             printf("%d ", j);
+            j++;
         }
         printf("\n");
+        i++;
+        j = 0;
     }
 }
 
