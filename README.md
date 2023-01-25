@@ -11,3 +11,4 @@ It contains lessons on every topics, with practical codes to explain each concep
 05 - Operators in C
 06 - Conditional Statements
 07 - Loops in C
+08 - Functions
