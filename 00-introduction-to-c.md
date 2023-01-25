@@ -5,3 +5,4 @@ What year was c invented?
 Why are we learning to program in c?
 What's special about c?
 What is c used for?
+Why did we start with C?

@@ -11,4 +11,8 @@ It contains lessons on every topics, with practical codes to explain each concep
 05 - Operators in C
 06 - Conditional Statements
 07 - Loops in C
-08 - Functions
+08 - Ternary Operator
+09 - Nested Loops
+10 - Break and Continue
+11 - Switch Statement
+12 - Functions
