@@ -34,3 +34,52 @@ The default clause inside the switch statement is optional.
 Practice Program
 Create a calculator
 */
+
+#include <stdio.h>
+
+int main()
+{
+
+    double n1, n2, result;
+    char opp;
+    
+   
+    scanf("%c", &opp);
+    scanf("%lf %lf", &n1, &n2);
+    
+     /*if (opp != '*' && opp != '+' && opp != '%' && opp != '-')
+    {
+        printf("Enter a valid operator");
+        scanf("%c", &opp);
+    }*/
+
+    
+    switch (opp)
+    {
+        case '+':
+            result = n1 + n2;
+            printf("%lf", result);
+        break;
+        
+        
+        case '-':
+            result = n1 - n2;
+            printf("%lf", result);
+        break;
+        
+        case '/':
+            result = n1 / n2;
+            printf("%lf", result);
+        break;
+        
+        case '*':
+            result = n1 * n2;
+            printf("%lf", result);
+        break;
+        
+        default:
+            printf("Enter a valid operator");
+    }
+
+return (0);
+}
