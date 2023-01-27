@@ -16,7 +16,4 @@ It contains lessons on every topics, with practical codes to explain each concep
 10 - Break and Continue
 11 - Switch Statement
 12 - Functions
-<<<<<<< HEAD
 13 - Recursions
-=======
->>>>>>> 003492222bca7a562b6dba9e55be2e238fae3447
