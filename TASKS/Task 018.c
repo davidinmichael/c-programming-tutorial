@@ -9,7 +9,7 @@
 int get_power(int x, int y)
 {
     if (y < 0)
-        return (0);
+        return ((double)(1.0/(x * get_power(x, (-1) * (y + 1)))));
     else if (y == 0)
         return (1);
     else if (y == 1)
