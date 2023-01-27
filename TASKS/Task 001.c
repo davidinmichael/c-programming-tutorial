@@ -5,3 +5,16 @@ Print all the letters except q and e
 
 use printf
 */
+
+int main()
+{
+        char xy;
+
+        for (xy = 'b'; xy <= 'z'; ++xy)
+        {
+                printf("%c ", xy);
+                printf("\n");
+	}
+
+        return (0);
+}
