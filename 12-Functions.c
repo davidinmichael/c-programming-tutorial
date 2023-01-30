@@ -67,3 +67,26 @@ Example, if arg1 is of int type, then during the call, the
 argument to replace arg1 must be of int type.
 */
 
+/*
+Calculator: A calculator is an application that performs mathematical
+operations. Functions can be used to perform specific operations, such
+as addition, subtraction, multiplication, and division.
+
+Traffic Control System: A traffic control system can use functions to
+manage the flow of vehicles at intersections. For example, a function can
+be used to change the traffic light from red to green, or to display a
+warning sign when a pedestrian is crossing the road.
+
+Bank Management System: A bank management system can use functions to
+manage the operations of a bank, such as account creation, deposit,
+withdrawal, balance inquiry, and transaction history.
+
+Weather Forecast System: A weather forecast system can use functions to
+collect data from weather stations, process the data, and generate weather
+reports and forecasts.
+
+Medical Diagnosis System: A medical diagnosis system can use functions to
+collect patient information, perform tests, analyze results, and make
+recommendations for treatment.
+*/
+
