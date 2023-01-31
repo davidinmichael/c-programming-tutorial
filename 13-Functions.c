@@ -65,9 +65,57 @@ during a function call, must match that of the function
 definition.
 Example, if arg1 is of int type, then during the call, the
 argument to replace arg1 must be of int type.
+
+Call by Value and Call by Reference
+1. Call by Value:
+In this method, a copy of the argument value is passed to the
+function, and any changes made to the argument within the function
+do not affect the original value outside the function.
+Example:
+#include <stdio.h>
+
+void swap(int x, int y) {
+   int temp;
+   temp = x;
+   x = y;
+   y = temp;
+}
+
+int main() {
+   int a = 100, b = 200;
+   printf("Before swap: a = %d b = %d\n", a, b);
+   swap(a, b);
+   printf("After swap: a = %d b = %d\n", a, b);
+   return 0;
+}
+
+Call by reference:
+In this method, a reference to the argument is passed to the
+function, and any changes made to the argument within the function
+affect the original value outside the function.
+Example:
+#include <stdio.h>
+
+void swap(int *x, int *y) {
+   int temp;
+   temp = *x;
+   *x = *y;
+   *y = temp;
+}
+
+int main() {
+   int a = 100, b = 200;
+   printf("Before swap: a = %d b = %d\n", a, b);
+   swap(&a, &b);
+   printf("After swap: a = %d b = %d\n", a, b);
+   return 0;
+}
+
 */
 
 /*
+
+Applications of Functions
 Calculator: A calculator is an application that performs mathematical
 operations. Functions can be used to perform specific operations, such
 as addition, subtraction, multiplication, and division.
