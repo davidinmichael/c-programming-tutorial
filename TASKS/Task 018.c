@@ -13,4 +13,19 @@
  */
 
 int power(int x, int y)
+{
+	if (y != 0)
+	{
+		return (x * power(x, y - 1));
+	}
+    else
+	    return (1);
+}
 
+int main()
+{
+	int a = power(6, 2);
+
+	printf("%d\n", a);
+	return (0);
+}
