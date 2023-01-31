@@ -15,4 +15,6 @@ It contains lessons on every topics, with practical codes to explain each concep
 09 - Nested Loops
 10 - Break and Continue
 11 - Switch Statement
-12 - Functions
+12 - Scope of Variable
+13 - Functions
+14 - Recursions
