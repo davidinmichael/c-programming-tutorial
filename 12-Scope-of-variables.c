@@ -30,19 +30,21 @@ Example:
 #include <stdio.h>
 
 int main() {
-    int a = 10; // Local variable
-    if (a == 10) {
-        int b = 20; // Local variable within the if block
-        printf("Value of a: %d\n", a);
-        printf("Value of b: %d\n", b);
+    int outBox = 10; // Local variable
+
+    if (outBox == 10)
+    {
+        int roomBox = 20; // Local variable within the if block
+        printf("Value of outBox: %d\n", outBox);
+        printf("Value of roomBox: %d\n", roomBox);
     }
-    // printf("Value of b: %d\n", b);  This line will cause an error, because the scope of b is limited to the if block
+    // printf("Value of b: %d\n", roomBox);  This line will cause an error, because the scope of b is limited to the if block
     return 0;
 }
 
-In this example, the variable b has local scope, which means it can
+In this example, the variable roomBox has local scope, which means it can
 only be accessed within the if block where it is declared. If you
-try to access b outside of the if block, the program will cause
+try to access roomBox outside of the if block, the program will cause
 an error.
 
 It is important to understand the scope of a variable as it can
