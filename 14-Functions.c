@@ -12,7 +12,7 @@ With this example, we can say that the collection of
 functions creates a program.
 
     Why should we use functions
-1. With functions, we wont have to write same code or logic
+1. With functions, we won't have to write same code or logic
     over and over again in a program.
 2. We can easily track the program, when we use functions.
 3. We can call functions multiple times in a program, and so
