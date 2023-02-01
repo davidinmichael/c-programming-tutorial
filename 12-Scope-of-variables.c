@@ -18,8 +18,8 @@ int main() {
     printf("Value of b: %d\n", b);
     return 0;
 }
-In this example, the variable a has global scope, which means it
-can be accessed from any function within the program.
+In this example, the variable a has global scope, which means it can
+be accessed from any function within the program.
 
 
 2. Local scope: Variables declared within a function or a block are
