@@ -5,6 +5,12 @@
   Fahrenheit and vice versa.  
 */
 
+/**
+ * farenheit_to_celius - convert Fahrenheit temperature to Celcius
+ * @temp: temperature value in celcius (double)
+ * Return: The Fahrenheit value after computation/conversion
+ */
+
 double farenheit_to_celius(double temp)
 {
 	double result;
@@ -12,6 +18,12 @@ double farenheit_to_celius(double temp)
 	result = ((temp - 32) * 5) / 9;
 	return (result);
 }
+
+/**
+ * farenheit_to_celius - convert Celcius temperature to Fahrenheit
+ * @temp: temperature value in fahrenheit (double)
+ * Return: The Celcius value after computation/conversion
+ */
 
 double celius_to_farenheit(double temp)
 {
