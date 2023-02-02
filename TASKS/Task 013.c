@@ -25,6 +25,6 @@ int main()
 	printf("Your Natural numbers from %d to %d: \n", n, i);
 	x = printNaturalNum(i, n);
 
-	printf('\n');
+	printf("\n");
 	return 0;
 }
