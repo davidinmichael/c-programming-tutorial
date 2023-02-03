@@ -1,0 +1,3 @@
+/*
+Create a program to find the average of a set of numbers.
+*/
