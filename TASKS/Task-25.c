@@ -1,0 +1,3 @@
+/*
+Declare two integer variables and swap their values using a pointer.
+*/
