@@ -1,0 +1,4 @@
+/*
+Create a program that uses pointers to find the maximum value stored
+in an array.
+*/
