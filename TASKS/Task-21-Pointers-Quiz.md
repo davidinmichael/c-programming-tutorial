@@ -49,7 +49,7 @@ printf("%d", *ptr); // this will print the value in num;
 
 ANSWER
 
-Null pointers are pointers thst have been declared but not pointing to a particular memory location or address. They are initialized with the value NULL.
+Null pointers are pointers that have been declared but not pointing to a particular memory location or address. They are initialized with the value NULL.
 
 ---
 
@@ -77,7 +77,7 @@ A pointer holds the address of the variable it is pointing to while the arraynam
 
 ANSWER
 
-Dynamic allocation of memory is allocating memory at the time of execution (run time). The functions calloc() and malloc() support allocating of dynamic memory.
+Dynamic allocation of memory is allocating memory at the time of execution (run time). The functions `calloc() and malloc()` support allocating of dynamic memory.
 
 ---
 
