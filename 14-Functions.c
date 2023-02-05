@@ -12,7 +12,7 @@ With this example, we can say that the collection of
 functions creates a program.
 
     Why should we use functions
-1. With functions, we wont have to write same code or logic
+1. With functions, we won't have to write same code or logic
     over and over again in a program.
 2. We can easily track the program, when we use functions.
 3. We can call functions multiple times in a program, and so
@@ -65,5 +65,76 @@ during a function call, must match that of the function
 definition.
 Example, if arg1 is of int type, then during the call, the
 argument to replace arg1 must be of int type.
+
+Call by Value and Call by Reference
+1. Call by Value:
+In this method, a copy of the argument value is passed to the
+function, and any changes made to the argument within the function
+do not affect the original value outside the function.
+Example:
+#include <stdio.h>
+
+void swap(int x, int y) {
+   int temp;
+   temp = x;
+   x = y;
+   y = temp;
+}
+
+int main() {
+   int a = 100, b = 200;
+   printf("Before swap: a = %d b = %d\n", a, b);
+   swap(a, b);
+   printf("After swap: a = %d b = %d\n", a, b);
+   return 0;
+}
+
+Call by reference:
+In this method, a reference to the argument is passed to the
+function, and any changes made to the argument within the function
+affect the original value outside the function.
+Example:
+#include <stdio.h>
+
+void swap(int *x, int *y) {
+   int temp;
+   temp = *x;
+   *x = *y;
+   *y = temp;
+}
+
+int main() {
+   int a = 100, b = 200;
+   printf("Before swap: a = %d b = %d\n", a, b);
+   swap(&a, &b);
+   printf("After swap: a = %d b = %d\n", a, b);
+   return 0;
+}
+
+*/
+
+/*
+
+Applications of Functions
+Calculator: A calculator is an application that performs mathematical
+operations. Functions can be used to perform specific operations, such
+as addition, subtraction, multiplication, and division.
+
+Traffic Control System: A traffic control system can use functions to
+manage the flow of vehicles at intersections. For example, a function can
+be used to change the traffic light from red to green, or to display a
+warning sign when a pedestrian is crossing the road.
+
+Bank Management System: A bank management system can use functions to
+manage the operations of a bank, such as account creation, deposit,
+withdrawal, balance inquiry, and transaction history.
+
+Weather Forecast System: A weather forecast system can use functions to
+collect data from weather stations, process the data, and generate weather
+reports and forecasts.
+
+Medical Diagnosis System: A medical diagnosis system can use functions to
+collect patient information, perform tests, analyze results, and make
+recommendations for treatment.
 */
 
