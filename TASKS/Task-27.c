@@ -1,0 +1,4 @@
+/*
+Write a program that takes an array of scores and outputs the
+highest score and the lowest score
+*/

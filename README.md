@@ -19,3 +19,5 @@ It contains lessons on every topics, with practical codes to explain each concep
 13 - Variable Modifier
 14 - Functions
 15 - Recursions
+16 - Pointers
+17 - Arrays
