@@ -21,3 +21,9 @@ void tenTimesNum()
         }
     printf("\n");    
     }
+    
+int main()
+{
+    tenTimesNum();
+return(0);
+}
