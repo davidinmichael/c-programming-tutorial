@@ -7,3 +7,19 @@ Output should look like this;
 9 x 2 = 18
 ... and so on till 12
 */
+#include <stdio.h>
+
+void NTab()
+{
+    int i;
+
+    for (i = 0; i <= 12; i++)
+    {
+        printf("%d x %d = %d\n", 9, i, 9 * i);
+    }
+}
+
+int main()
+{
+    NTab();
+}

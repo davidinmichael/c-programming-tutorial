@@ -7,3 +7,26 @@ If the number is zero, display 'This is zero'
 NOTE: 'userInput' should be the number entered by the user.
 
 */
+#include <stdio.h>
+
+int main(void)
+{
+  int num;
+
+  printf("Enter and integer: ");
+  scanf("%d", &num);
+
+  if (num % 2 == 1)
+  {
+    printf("userInput is Odd");
+  }
+  else if (num % 2 == 0)
+  {
+    printf("userInput is even");
+  }
+  else
+  {
+    printf("This is zero");
+  }
+  return (0);
+}
