@@ -7,3 +7,31 @@ multiples of both three and five print FizzBuzz.
 Your output should like this;
 1 2 fizz 4 buzz fizz 7 8 fizz... and so on.
 */
+
+#include <stdio.h>
+
+int main()
+{
+    for (int i = 1; i <= 100; ++i)
+    {
+        if (i % 15 == 0)
+        {
+            printf("FizzBuzz");
+        }
+        
+        else if (i % 5 == 0)
+        {
+            printf("Buzz");
+        }
+        else if (i % 3 == 0)
+        {
+            printf("Fizz");
+        }
+        else
+        {
+        printf("%d", i); 
+        }
+    printf("\n");
+    }
+return (0);    
+}
