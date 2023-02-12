@@ -1,0 +1,3 @@
+/*
+Write a program to implement the Binary Search algorithm.
+*/
