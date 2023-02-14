@@ -14,7 +14,7 @@ int recur_add(int k)
 	if (k == 0)
 		return (0);
 	else
-		return (k + recur_add(k - 1);
+		return (k + recur_add(k - 1));
 }
 
 int main(void)
