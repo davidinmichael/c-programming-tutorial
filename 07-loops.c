@@ -33,6 +33,20 @@ Print Numbers 1 - 10
 Calculate the sum
 */
 
+#include <stdio.h>
+
+int main()
+{
+    int sum = 0;
+    
+    for ( int i = 1; i <= 10; ++i)
+    {
+        printf("%d ", i);
+        sum += i;
+    }
+    
+    printf("\nsum = %d\n", sum);
+
 /*
 C while loop
 The syntax of the while loop is:
@@ -50,6 +64,14 @@ If testExpression is false, the loop terminates (ends).
 Practice Program
 Print Numbers 1 - 10
 */
+
+int n = 0;
+    
+    while (n < 10)
+    { 
+        ++n;
+        printf("%d ", n);
+    }
 
 /*
 do...while loop
@@ -73,3 +95,23 @@ How do...while loop works?
 Practice Program
 Ask for correct input continously
 */
+
+
+int num;
+    printf("Enter a number from 1 to 3\n");
+    scanf("%d", &num);
+    
+        do 
+        {
+            printf("Enter the correct input\n");
+            scanf("%d", &num);
+        }
+        while (num > 3);
+    
+    if (num < 3)
+        printf("%d is correct", num);
+        
+        
+return (0);
+
+}

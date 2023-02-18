@@ -17,6 +17,22 @@ Practice Program
 Check if a number is negative
 */
 
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    printf("Enter a number\n");
+    scanf("%d", &n);
+    
+    if (n < 0) 
+    {
+        printf("%d is a negative number\n", n);
+    }
+
+  
+
+
 /*
 
 C if...else Statement
@@ -41,6 +57,23 @@ statements inside the body of if are skipped from execution.
 Practice Program
 Check whether a number is odd or even
 */
+
+
+    int p;
+    printf("Enter a number\n");
+    scanf("%d", &p);
+    
+    if (p % 2 == 0) 
+    {
+        printf("%d is an even number\n", p);
+    }
+
+    else
+    {
+        printf("%d is an odd number\n", p);
+    }
+return (0);
+}
 
 /*
 C if...else Ladder
@@ -69,5 +102,11 @@ else {
 
 Practice Program
 Program to relate two integers using ==, > or < symbol
+
+
+
+=*=*=*=*=*=  Please explain this practice task  =*=*=*=*=*=*=
+
+
 
 */
