@@ -1,0 +1,4 @@
+/*
+Create a program that demonstrates the use of pointers to pass
+information between functions.
+*/
