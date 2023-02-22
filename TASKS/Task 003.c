@@ -40,7 +40,7 @@ printf("Number is odd");
 }
     
 
-if (Number==0){
+else if (Number==0){
         
 printf("NUmber is zero");
     
