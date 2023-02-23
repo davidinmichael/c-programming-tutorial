@@ -8,44 +8,42 @@ NOTE: 'userInput' should be the number entered by the user.
 
 */
 
-
 #include <stdio.h>
 
 
 int main() {
-    
-    
+
+
 
 int Number;
-    
-    
+
+
 printf("Enter your number: ");
-    
+
 scanf("%d", &Number);
-    
-    
+
 
 if (Number%2==0){
-        
-printf("Number is even");
-    
-}
-    
 
-    
-else if (Number%2==1){
-        
-printf("Number is odd");
-    
+printf("%d is even");
+
 }
-    
+
+
+else if (Number%2==1){
+
+printf("%d is odd");
+
+}
+
 
 else if (Number==0){
-        
-printf("NUmber is zero");
-    
+
+printf("%d is zero");
+
 }
-    
+
+
 
 return 0;
 
