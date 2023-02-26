@@ -3,7 +3,7 @@
 /**
  * main - entry point
  * a program that calcules the amount of pie that can be
- * made with an apple fruit
+ * made/baked with an apple fruit
  * Return: returns 0
  */
 
