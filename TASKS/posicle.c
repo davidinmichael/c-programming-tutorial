@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * A program that detrmines whether to give away or keep a popsicles
+ * A program that detrmines whether to give away or keep popsicles
  * Return: returns 0 (sucess)
  */
 
