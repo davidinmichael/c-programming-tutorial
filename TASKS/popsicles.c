@@ -12,3 +12,24 @@ Sample Output
 give away
 
  * */
+
+
+#include <stdio.h>
+
+int main() {
+    int siblings, popsicles;
+    printf("How many siblings are there? ");
+    scanf("%d", &siblings);
+    
+    printf("How many popsicles do you have? ");
+    scanf("%d", &popsicles);
+    
+    if (siblings> popsicles) {
+        printf("Eat them yourself");
+    }
+    else {
+        printf("Give away");
+    }
+    
+    return 0;
+}
