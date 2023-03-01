@@ -14,9 +14,9 @@ printf("Enter your number: ");
 scanf("%d", &number);
 
 if (number%2==0){
-printf("Number is even");}
+printf("%d is even");}
 else {    
-printf("Number is odd");}
+printf("%d is odd");}
 
 return 0;
 }

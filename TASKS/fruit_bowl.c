@@ -12,3 +12,17 @@ Sample Output
 4
 
  * */
+
+
+#include <stdio.h>
+
+int main() {
+    int n, num_apples, num_pies;
+    printf("Enter the number of fruits: ");
+    scanf("%d", &n);
+    
+    num_apples = n/2;
+    num_pies = num_apples/3;
+    printf("You can make %d pies",num_pies);
+    return 0;
+}
