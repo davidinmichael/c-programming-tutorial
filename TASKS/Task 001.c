@@ -8,13 +8,15 @@ use printf
 
 int main()
 {
-        char xy;
+        int alphabet;
 
-        for (xy = 'b'; xy <= 'z'; ++xy)
+        for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
         {
-                printf("%c ", xy);
-                printf("\n");
+                if (alphabet == 'e' || alphabet == 'q')
+			continue;
+		printf(alphabet);
 	}
+	printf("\n");
 
-        return (0);
+	return (0);
 }
